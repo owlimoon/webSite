@@ -1,0 +1,9 @@
+1 prototyping and founding a good structure that works nicely and can evaluate
+2 working in html and founding the base of the website
+3 imaginating the UX of the site web that is nice and adapted to the structure
+4 coding the css file to make the UX
+Day1 --------------------------------------------------------------------------- Day2
+5 coding the page
+5 making the UI of the web site it should be cool
+6 importing the asset
+7 publeshing the web site
