@@ -22,10 +22,58 @@ header
 	margin-left: auto;
 	margin-right: auto;
 
+	display: flex;
+	align-items: center;
+
+	justify-content: space-between;
+
+
+
 	background-color: white;
 
 
 }
+
+nav
+{
+	display: flex;
+	align-items: center;
+}
+
+.navO
+{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo
+{
+	width: 128px;
+	height: 34px;
+
+	
+	background-color: blue;
+}
+.nv
+{
+	margin-left: 42px;
+	margin-right: 42px;
+}
+.nvsm
+{
+	margin-right: 16px;
+}
+.SML
+{
+	width: 32px;
+	height: 32px;
+
+	background-color: red;
+}
+
+
 .Home_banner
 {
 	width: 100%;
@@ -75,11 +123,38 @@ footer
 .frame_up
 {
 	height: 264px;
+	display: flex;
+	padding-top: 32px;
+	justify-content: center;
+
 
 	border-top: 1px black solid;
+}
+.conteneurf2
+{
+	max-width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+}
+.fss1
+{
+	max-width: 350px;
+}
+.fss2
+{
+	padding-left: 16px;
+	max-width: 292px;
 }
 .frame_down
 {
 	height: 48px;
+	padding-left: 32px;
+	padding-right: 16px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	border-top: 1px black solid;
 }
+
