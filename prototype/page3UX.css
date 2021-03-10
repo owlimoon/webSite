@@ -1,0 +1,56 @@
+/*Min-whidth of page 1064px*/
+.store_frame
+{
+	margin-top: 64px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 64px;
+}
+
+.store
+{
+	max-width: 1280px;
+	width: 100%;
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.title
+{
+	width: 1620px;
+	height: 100px;
+	padding-left: 16px;
+
+	background-color: red;
+}
+.article
+{
+	margin-top: 124px;
+	margin-bottom: 124px;
+	padding: 4px;
+	display: flex;
+	align-items: center;
+}
+.photo
+{
+	width: 500px;
+	height: 500px;
+	background-color: orange;
+	margin: 8px;
+}
+.discription
+{
+	height: 450px;
+	width: 700px;
+	background-color: cyan;
+}
+.discriptionB
+{
+	height: 550px;
+	width: 1280px;
+	padding: 16px;
+	background-color: cyan;
+}
