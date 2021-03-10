@@ -13,6 +13,10 @@ header
 
 	background-color: #9D66E6;
 }
+ul
+{
+	list-style: none;
+}
 .conteneur
 {
 	max-width: 1280px;
@@ -120,32 +124,55 @@ footer
 {
 	padding-top: 32px;
 }
-.frame_up
+
+.f_conteneur
 {
-	height: 264px;
-	display: flex;
-	padding-top: 32px;
-	justify-content: center;
-
-
 	border-top: 1px black solid;
+	margin: 8px;
 }
-.conteneurf2
+
+.f_conteneur2
 {
-	max-width: 600px;
-	margin-right: auto;
+	max-width: 1820px;
+	width: 100%;
+	max-width: 1280px;
 	margin-left: auto;
+	margin-right: auto;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
 }
-.fss1
+.fnvm
 {
-	max-width: 350px;
+	width: 350px;
+	height: 300px;
+	
+	margin: 8px;
 }
-.fss2
+.f_l
 {
-	padding-left: 16px;
-	max-width: 292px;
+	width: 350px;
+	height: 300px;
+	
+	margin: 8px;
+	padding-top: 16px;
 }
+
+.f_logo
+{
+	width: 256px;
+	height: 68px;
+
+	
+	background-color: blue;
+}
+.f_nvml
+{
+	padding-left: 128px;
+	margin-top: 64px;
+}
+
 .frame_down
 {
 	height: 48px;
