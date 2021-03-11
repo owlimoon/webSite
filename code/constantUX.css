@@ -13,7 +13,7 @@ header
 
 	
 
-	background-color: #242526;
+	background-color: #3D3D3D;
 }
 ul
 {
@@ -73,7 +73,6 @@ nav
 	width: 32px;
 	height: 32px;
 
-	background-color: red;
 }
 
 
@@ -86,6 +85,7 @@ nav
 footer
 {
 	padding-top: 32px;
+	background-color: #3D3D3D;
 }
 
 .f_conteneur
