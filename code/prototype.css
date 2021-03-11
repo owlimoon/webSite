@@ -1,0 +1,187 @@
+body
+{
+	margin:0px;
+}
+header
+{
+	height: 64px;
+	width: 100%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+
+	
+
+	background-color: #9D66E6;
+}
+ul
+{
+	list-style: none;
+}
+.conteneur
+{
+	max-width: 1280px;
+	height: 100%;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-left: auto;
+	margin-right: auto;
+
+	display: flex;
+	align-items: center;
+
+	justify-content: space-between;
+
+
+
+	background-color: white;
+
+
+}
+
+nav
+{
+	display: flex;
+	align-items: center;
+}
+
+.navO
+{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo
+{
+	width: 128px;
+	height: 34px;
+
+	
+	background-color: blue;
+}
+.nv
+{
+	margin-left: 42px;
+	margin-right: 42px;
+}
+.nvsm
+{
+	margin-right: 16px;
+}
+.SML
+{
+	width: 32px;
+	height: 32px;
+
+	background-color: red;
+}
+
+
+.Home_banner
+{
+	width: 100%;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	padding-top: 128px;
+	padding-bottom:128px;
+
+	
+	display: flex;
+
+}
+.banner_frame
+{
+	max-width: 1200px ;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.store_frame
+{
+	margin: 8px;
+}
+
+.store
+{
+	max-width: 1820px;
+	width: 100%;
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.article
+{
+	width: 400px;
+	height: 400px;
+	background-color: orange;
+	margin: 8px;
+}
+footer
+{
+	padding-top: 32px;
+}
+
+.f_conteneur
+{
+	border-top: 1px black solid;
+	margin: 8px;
+}
+
+.f_conteneur2
+{
+	max-width: 1820px;
+	width: 100%;
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.fnvm
+{
+	width: 350px;
+	height: 300px;
+	
+	margin: 8px;
+}
+.f_l
+{
+	width: 350px;
+	height: 300px;
+	
+	margin: 8px;
+	padding-top: 16px;
+}
+
+.f_logo
+{
+	width: 256px;
+	height: 68px;
+
+	
+	background-color: blue;
+}
+.f_nvml
+{
+	padding-left: 128px;
+	margin-top: 64px;
+}
+
+.frame_down
+{
+	height: 48px;
+	padding-left: 32px;
+	padding-right: 16px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-top: 1px black solid;
+}
+
