@@ -53,7 +53,7 @@ nav
 	align-items: center;
 	justify-content: space-between;
 }
-
+/* logo s4ir*/
 .logo
 {
 	width: 128px;
@@ -125,6 +125,7 @@ footer
 	padding-top: 16px;
 }
 
+/*logo kbir*/
 .f_logo
 {
 	width: 256px;
