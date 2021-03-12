@@ -1,0 +1,4 @@
+1- Media queries.
+2- UI finishing.
+3- finishing the web site.
+4-publishing it.
