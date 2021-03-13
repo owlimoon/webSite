@@ -12,13 +12,13 @@
 		<div class="conteneur">
 			<a href="#" class="nv"><img src="images/mini_logo.png" alt="logo"></a>
 				
-				<div id="mini"></div>
+				<span id="mini" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
 				<div class="navO">
 					<nav class="navI">
 					
 						<a href="#" class="nv">Home</a>
-						<a href="#" class="nv">contact</a>
-						<a href="#" class="nv">us?</a>
+						<a href="#" class="nv">Categories</a>
+						<a href="#" class="nv">Contact</a>
 					</nav>
 					
 					<div class="navSM">
@@ -34,21 +34,11 @@
 		
 	</header>
 
-	<div class="h_menue_mini">
-		<table>
-			<tr><td><a href="#">home</a></td></tr>
-			<tr><td><a href="#">contact</a></td></tr>
-			<tr><td><a href="#">us?</a></td></tr>
-			 <tr><td><div>
-				<div class="navSM">
-						<nav class="navISM">
-							<a href="" class="nvsm"><div class="SML"><img src="images/facebook_logo.svg" alt="facebook"></div></a>
-							<a href="" class="nvsm"><div class="SML"><img src="images/instagram_logo.svg" alt="instagram"></div></a>
-							
-						</nav>
-					</div>
-			</div></td>
-		</table>
+	<div id="mySidenav" class="sidenav">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  		<a href="#" class="nv">Home</a>
+		<a href="#" class="nv">Categories</a>
+		<a href="#" class="nv">Contact</a>
 	</div>
 
 	<div class="Home_banner">
@@ -74,20 +64,22 @@
 				<div class="f_l"><a href="#"><div class="f_logo"></div></a></div>
 				<div class="fnvm">
 					<ul class="f_nvml">
-						<li><a href="#">some text</a></li>
-						<li><a href="#">some text</a></li>
-						<li><a href="#">some text</a></li>
-						<li><a href="#">some text</a></li>
-						<li><a href="#">some text</a></li>
+						<li><a class="f_nv" href="#">Home</a></li>
+						<li><a class="f_nv" href="#">Categories</a></li>
+						<li><a class="f_nv" href="#">electronics</a></li>
+						<li><a class="f_nv" href="#">mechaniques</a></li>
+
+
+						
 					</ul>
 				</div>
 				<div class="fnvm">
 					<ul class="f_nvml">
-						<li><a href="#">some text</a></li>
-						<li><a href="#">some text</a></li>
-						<li><a href="#">some text</a></li>
-						<li><a href="#">some text</a></li>
-						<li><a href="#">some text</a></li>
+						<li><a class="f_nv" href="mailto:adresse@serveur.com">Contact</a></li>
+						<li><a class="f_nv" href="#">About us</a></li>
+						<li><a class="f_nv" href="#">facebook</a></li>
+						<li><a class="f_nv" href="#">instagram</a></li>
+						
 					</ul>
 				</div>
 			</div>
@@ -95,17 +87,29 @@
 		<div class="frame_down">
 			<div class="f_conteneur2">
 				<p>all rights reserved</p>
-				<div class="navSM">
-					<nav class="navISM">
-						<a href="#" class="nvsm"><div class="SML"><img src="images/facebook_logo.svg" alt="facebook"></div></a>
-						<a href="#" class="nvsm"><div class="SML"><img src="images/instagram_logo.svg" alt="instagram"></div></a>
-					</nav>
-				</div>
+				
+				<nav class="navISM">
+					<a href="#" class="nvsm"><div class="SML"><img src="images/facebook_logo.svg" alt="facebook"></div></a>
+					<a href="#" class="nvsm"><div class="SML"><img src="images/instagram_logo.svg" alt="instagram"></div></a>
+				</nav>
+				
 			</div>
 			
 		</div>
 		
 	</footer>
+
+	<script>
+		function openNav() 
+		{
+		  document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		function closeNav() 
+		{
+		  document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
 
 
 
