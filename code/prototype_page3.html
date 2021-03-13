@@ -2,27 +2,34 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="constantUX.css">
 	<link rel="stylesheet" type="text/css" href="page3UX.css">
-	<link rel="stylesheet" type="text/css" href="constantUx.css">
-	<title>prototype</title>
+	<link rel="stylesheet" media="screen and (max-width: 750px)" href="mini-constant.css" />
+	<title>0 risk</title>
 </head>
 <body>
-	<header>
+		<header>
 		<div class="conteneur">
-			<a href="#" class="nv"><div class="logo"></div></a>
+			<a href="#" class="nv"><div class="logo"><img src="images/0 risk.svg"></div></a>
+				
+				<span id="mini" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
 				<div class="navO">
 					<nav class="navI">
 					
 						<a href="#" class="nv">Home</a>
-						<a href="#" class="nv">contact</a>
-						<a href="#" class="nv">us?</a>
+						<a href="#" class="nv">Categories</a>
+						<a href="#" class="nv">Contact</a>
 					</nav>
 					
 					<div class="navSM">
 						<nav class="navISM">
-							<a href="" class="nvsm"><div class="SML"></div></a>
-							<a href="" class="nvsm"><div class="SML"></div></a>
-							<a href="" class="nvsm"><div class="SML"></div></a>
+							<a href="" class="nvsm"><div class="SML">
+								<img src="images/facebook_logo.svg" alt="facebook">
+							</div></a>
+							<a href="" class="nvsm"><div class="SML">
+								<img src="images/instagram_logo.svg" alt="instagram">
+							</div></a>
+							
 						</nav>
 					</div>
 				</div>
@@ -51,42 +58,56 @@
 	<footer>
 		<section class="f_conteneur">
 			<div class="f_conteneur2">
-				<div class="f_l" id="f_lc"><a href="#"><div class="f_logo"></div></a></div>
+				<div class="f_l"><a href="#"><img src="images/0 risk.svg"></a>
+				</div>
 				<div class="fnvm">
 					<ul class="f_nvml">
-						<li><a href="#">some text</a></li>
-						<li><a href="#">some text</a></li>
-						<li><a href="#">some text</a></li>
-						<li><a href="#">some text</a></li>
-						<li><a href="#">some text</a></li>
+						<li><a class="f_nv" href="#">Home</a></li>
+						<li><a class="f_nv" href="#">Categories</a></li>
+						<li><a class="f_nv" href="#">electronics</a></li>
+						<li><a class="f_nv" href="#">mechaniques</a></li>
+
+
+						
 					</ul>
 				</div>
 				<div class="fnvm">
 					<ul class="f_nvml">
-						<li><a href="#">some text</a></li>
-						<li><a href="#">some text</a></li>
-						<li><a href="#">some text</a></li>
-						<li><a href="#">some text</a></li>
-						<li><a href="#">some text</a></li>
+						<li><a class="f_nv" href="mailto:adresse@serveur.com">Contact</a></li>
+						<li><a class="f_nv" href="#">About us</a></li>
+						<li><a class="f_nv" href="#">facebook</a></li>
+						<li><a class="f_nv" href="#">instagram</a></li>
+						
 					</ul>
 				</div>
 			</div>
 	</section>
 		<div class="frame_down">
 			<div class="f_conteneur2">
-				<p>all rights reserved</p>
-				<div class="navSM">
-					<nav class="navISM">
-						<a href="#" class="nvsm"><div class="SML"></div></a>
-						<a href="#" class="nvsm"><div class="SML"></div></a>
-						<a href="#" class="nvsm"><div class="SML"></div></a>
-					</nav>
-				</div>
+				<p>7016 El Alia, Tunisia</p>
+				
+				<nav class="navISM">
+					<a href="#" class="nvsm"><div class="SML"><img src="images/facebook_logo.svg" alt="facebook"></div></a>
+					<a href="#" class="nvsm"><div class="SML"><img src="images/instagram_logo.svg" alt="instagram"></div></a>
+				</nav>
+				
 			</div>
 			
 		</div>
 		
 	</footer>
+
+	<script>
+		function openNav() 
+		{
+		  document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		function closeNav() 
+		{
+		  document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
 
 
 
