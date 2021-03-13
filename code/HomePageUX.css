@@ -12,7 +12,6 @@
 }
 .banner_frame
 {
-	max-width: 1200px ;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -20,13 +19,14 @@
 .store_frame
 {
 	margin: 8px;
+	margin-bottom: 124px;
 }
 
 .store
 {
 	max-width: 1820px;
 	width: 100%;
-	max-width: 1280px;
+	max-width: 2100px;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -35,10 +35,13 @@
 }
 .article
 {
-	width: 400px;
-	height: 400px;
-	background-color: orange;
+	width: 620px;
+	height: 620px;
+	background-color: #ED2034;
 	margin: 8px;
 }
 
-
+img {
+  width: 100%;
+  height: auto;
+}

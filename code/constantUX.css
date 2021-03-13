@@ -3,6 +3,7 @@ body
 {
 	margin:0px;
 	font-family: "Lato", sans-serif;
+	background-color: #FAFAFA;
 }
 /*header Ux*/
 header
@@ -36,7 +37,11 @@ ul
 	justify-content: space-between;
 
 }
-
+.logo
+{
+	height: 128px;
+	width: 34px;
+}
 nav
 {
 	display: flex;
@@ -93,7 +98,12 @@ li
 
 }
 
+.h_l
+{
+	height: 34px
+	width:128px;
 
+}
 
 
 /*footer Ux*/
@@ -124,7 +134,7 @@ footer
 }
 .fnvm
 {
-	width: 200px;
+	width: 260px;
 	height: 300px;
 	
 	margin: 8px;
@@ -210,6 +220,5 @@ footer
 
 a:hover
 {
-	color: red;
-	fill: red;
+	color: #ED2034;
 }
