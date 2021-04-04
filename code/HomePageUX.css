@@ -16,32 +16,30 @@
 	margin-left: auto;
 }
 
-.store_frame
-{
-	margin: 8px;
-	margin-bottom: 124px;
-}
+
 
 .store
 {
-	max-width: 1820px;
-	width: 100%;
-	max-width: 2100px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+.store_frame
+{
+	max-width: 1280px;
+	margin-bottom: 124px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 .article
 {
-	width: 620px;
-	height: 620px;
-	background-color: #ED2034;
 	margin: 8px;
 }
-
-img {
-  width: 100%;
-  height: auto;
+img
+{
+	width: 100%;
+	height: auto;
 }
